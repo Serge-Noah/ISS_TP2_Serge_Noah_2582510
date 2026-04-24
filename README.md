@@ -70,3 +70,20 @@ docker volume create mongodb
     <summary> <strong>Detail image :</strong></summary>
   <img src="images/4.png" width="800"/>
 </details>
+
+#### Commande pour lancer MongoDB
+
+```bash
+docker run -d \
+--name mongodb \
+--network mon_reseau \
+-e MONGO_INITDB_ROOT_USERNAME=adminmongo \
+-e MONGO_INITDB_ROOT_PASSWORD=EncoreUneAutreBD \
+-v mongodb:/data/db \
+mongodb/mongodb-community-server:latest
+```
+
+<details>
+    <summary> <strong>Detail image :</strong></summary>
+  <img src="images/5.png" width="800"/>
+</details>
