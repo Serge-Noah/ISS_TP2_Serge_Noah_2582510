@@ -13,3 +13,21 @@ configurer des règles de gestions des accès sécuritaires.
 <br></br>
 
 
+# Section 1 : Vérification et conteneurs
+---
+## Étape 1: Vérification de l’installation
+
+Verification de l’installation des deux composantes Docker vous : Docker Engine et Docker Compose.
+
+####  Entrez les commandes suivantes sur votre serveur : 
+####  Commandes d’installation
+
+```bash
+docker version
+```
+
+<details>
+    <summary> <strong>Detail image :</strong></summary>
+  <img src="images/1.png" width="800"/>
+</details>
+
