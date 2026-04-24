@@ -60,3 +60,13 @@ docker network create mon_reseau
   <img src="images/3.png" width="800"/>
 </details>
 
+#### Commande pour créer le volume MongoDB
+
+```bash
+docker volume create mongodb
+```
+
+<details>
+    <summary> <strong>Detail image :</strong></summary>
+  <img src="images/4.png" width="800"/>
+</details>
