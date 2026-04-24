@@ -2,9 +2,10 @@
 # Travail pratique 2 - Docker
 
 <br></br>
-## Dans ce travail pratique, vous allez démontrer que vous avez installé un système de conteneurs et que vous êtes capable de créer des conteneurs selon une description.
+### But du travail : Dans ce travail pratique, nous allons démontrer que nous avons installé un système de conteneurs et que nous sommes capable de créer des conteneurs selon une description.
 
-Principalement, nous allons faire :
+Principalement, nous allez faire :
+
 l'installation d'un système de conteneur en respectant la procédure et les recommandations du manufacturier au besoin;
 configurer le système de conteneurs en fonction d’une utilisation sécuritaire;
 vérifier que les éléments installés fonctionnent comme prévu;
