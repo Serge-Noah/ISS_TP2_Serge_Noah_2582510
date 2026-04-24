@@ -14,7 +14,7 @@ configurer des règles de gestions des accès sécuritaires.
 
 
 # Section 1 : Vérification et conteneurs
----
+
 ## Étape 1: Vérification de l’installation
 
 Verification de l’installation des deux composantes Docker vous : Docker Engine et Docker Compose.
