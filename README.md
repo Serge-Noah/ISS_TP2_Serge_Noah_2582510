@@ -49,3 +49,14 @@ docker compose version
 - Le conteneur mongodb utilisera le volume mongodb.
 
 
+#### Commande pour créer le réseau privé
+
+```bash
+docker network create mon_reseau
+```
+
+<details>
+    <summary> <strong>Detail image :</strong></summary>
+  <img src="images/3.png" width="800"/>
+</details>
+
