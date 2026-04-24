@@ -1,22 +1,15 @@
 # ISS_TP2_Serge_Noah_2582510
-Travail pratique 2 - Docker
+# Travail pratique 2 - Docker
 
-
-# ISS_TP1_Serge_Herve_ET_Martin
-# TP1 en ISS
-# Travail pratique 1 - Procédure d'installation d'un serveur
 <br></br>
-## But de ce travail : Installer et configurer un serveur Ubuntu 24.04 et documenter  la procédure d'installation.
+## Dans ce travail pratique, vous allez démontrer que vous avez installé un système de conteneurs et que vous êtes capable de créer des conteneurs selon une description.
+
+Principalement, vous allez faire :
+
+l'installation d'un système de conteneur en respectant la procédure et les recommandations du manufacturier au besoin;
+configurer le système de conteneurs en fonction d’une utilisation sécuritaire;
+vérifier que les éléments installés fonctionnent comme prévu;
+configurer des règles de gestions des accès sécuritaires.
 <br></br>
 
-## Environnement
-- Hyperviseur : vSphere
-- Type : Machine virtuelle
-- OS : Ubuntu Server 24.04
 
-## Spécifications
-- CPU : 2
-- RAM : 4 Go
-- Disque : 2 x 50 Go (dynamique)
-- Firmware : UEFI
-- Réseau : 10.100.2.0/24
