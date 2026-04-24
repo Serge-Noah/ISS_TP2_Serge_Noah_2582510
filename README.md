@@ -87,3 +87,19 @@ mongodb/mongodb-community-server:latest
     <summary> <strong>Detail image :</strong></summary>
   <img src="images/5.png" width="1000"/>
 </details>
+
+#### Commande pour lancer APACHE(HTTPD)
+
+```bash
+docker run -d \
+--name apache \
+--network mon_reseau \
+-p 80:80 \
+httpd:latest
+```
+
+<details>
+    <summary> <strong>Detail image :</strong></summary>
+  <img src="images/6.png" width="1000"/>
+</details>
+
