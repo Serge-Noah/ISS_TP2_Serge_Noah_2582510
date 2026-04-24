@@ -85,5 +85,5 @@ mongodb/mongodb-community-server:latest
 
 <details>
     <summary> <strong>Detail image :</strong></summary>
-  <img src="images/5.png" width="800"/>
+  <img src="images/5.png" width="1000"/>
 </details>
