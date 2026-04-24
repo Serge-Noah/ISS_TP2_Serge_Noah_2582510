@@ -40,3 +40,12 @@ docker compose version
   <img src="images/2.png" width="800"/>
 </details>
 
+## Étape 2 : Création de conteneurs sur le poste local
+
+Objectifs:
+- Créer un système avec un réseau privé virtuel mon_reseau et les conteneurs apache avec l'image httpd:latest et mongodb avec l'image mongodb/mongodb-community-server`.
+- Le conteneur httpd écoutera sur le port 80 de votre hôte.
+- L’utilisateur root de mongoDB sera adminmongo et le mot de passe sera EncoreUneAutreBD.
+- Le conteneur mongodb utilisera le volume mongodb.
+
+
