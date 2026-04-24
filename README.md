@@ -35,7 +35,7 @@ docker version
 docker compose version
 ```
 
-details>
+<details>
     <summary> <strong>Detail image :</strong></summary>
   <img src="images/2.png" width="800"/>
 </details>
