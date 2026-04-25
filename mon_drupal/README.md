@@ -155,15 +155,3 @@ Informations :
 
 
 
-
-#### Commande pour vérifier les logs Apache :
-
-```bash
-docker logs apache
-```
-
-<details>
-    <summary> <strong>Detail image :</strong></summary>
-  <img src="images/8.png" width="1000"/>
-</details>
-
