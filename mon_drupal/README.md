@@ -107,30 +107,23 @@ drupal:9
    <img src="../images/12.png" width="800"/>
 </details>
 
-#### Commande pour lancer APACHE(HTTPD)
+#### Commande pour identifier l'adresse ip du server
 
 ```bash
-docker run -d \
---name apache \
---network mon_reseau \
--p 80:80 \
-httpd:latest
+ip a
 ```
 
 <details>
     <summary> <strong>Detail image :</strong></summary>
-  <img src="images/6.png" width="1000"/>
+  <img src="../images/13.png" width="800"/>
 </details>
 
-#### Commande pour vérifier le réseau :
+#### Connexion sur le port 8080 sur la machine cliente ubuntu:
 
-```bash
-docker network inspect mon_reseau
-```
 
 <details>
     <summary> <strong>Detail image :</strong></summary>
-  <img src="images/7.png" width="1000"/>
+  <img src="../images/14.png" width="800"/>
 </details>
 
 #### Commande pour vérifier les logs Apache :
