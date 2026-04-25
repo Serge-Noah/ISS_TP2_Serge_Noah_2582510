@@ -120,11 +120,24 @@ ip a
 
 #### Connexion sur le port 8080 sur la machine cliente ubuntu:
 
-
 <details>
     <summary> <strong>Detail image :</strong></summary>
   <img src="../images/14.png" width="800"/>
 </details>
+
+#### Configuration PostgreSQL
+
+<details>
+    <summary> <strong>Detail image :</strong></summary>
+  <img src="../images/15.png" width="800"/>
+</details>
+
+
+
+
+
+
+
 
 #### Commande pour vérifier les logs Apache :
 
