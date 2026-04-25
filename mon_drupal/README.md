@@ -64,7 +64,7 @@ Nous allons créer un conteneur Postgresql pour l'utiliser avec Drupal:
 - Lancer les conteneurs et configurez l'installation Web de Drupal à http://localhost:8080.
 - Au choix de la BD, nous utiliserons PostgreSQL avec le nom de BD avec l’utilisateur et le mot de passe que nous avons configuré au lancement du conteneur.
 
-#### Commande pour créer le réseau privé
+#### Commande :
 
 ```bash
 docker network create mon_reseau
@@ -74,15 +74,22 @@ docker network create mon_reseau
   <img src="../images/10.png" width="800"/>
 </details>
 
-#### Commande pour créer le volume MongoDB
+#### Commande pour lancer PostgreSQL :
 
 ```bash
-docker volume create mongodb
+docker run -d \
+--name postgres \
+--network mon_reseau \
+-e POSTGRES_DB=drupaldb \
+-e POSTGRES_USER=drupaluser \
+-e POSTGRES_PASSWORD=drupalpass \
+-v drupal-data:/var/lib/postgresql/data \
+postgres:latest
 ```
 
 <details>
     <summary> <strong>Detail image :</strong></summary>
-  <img src="images/4.png" width="800"/>
+  <img src="images/11.png" width="800"/>
 </details>
 
 #### Commande pour lancer MongoDB
