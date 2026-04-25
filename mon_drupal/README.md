@@ -115,7 +115,7 @@ drupal:9
 
 <details>
     <summary> <strong>Detail image :</strong></summary>
-   <img src="../images/12.png" width="800"/>
+   <img src="../images/23.png" width="800"/>
 </details>
 
 #### Commande pour identifier l'adresse ip du server
