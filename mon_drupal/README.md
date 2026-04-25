@@ -102,10 +102,6 @@ docker run -d \
 postgres:15
 ```
 
-<details>
-    <summary> <strong>Detail image :</strong></summary>
-   <img src="../images/22.png" width="1000"/>
-</details>
 
 #### Commande pour lancer DRUPAL
 
