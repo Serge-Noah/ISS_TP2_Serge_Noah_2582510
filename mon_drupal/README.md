@@ -87,6 +87,10 @@ docker volume create drupal-data
 
 #### Commande pour lancer PostgreSQL :
 
+Nous avons remplacé l’image postgres:latest par postgres:15 afin d’éviter des incompatibilités liées aux changements récents de structure des données dans les nouvelles versions de PostgreSQL.
+L’utilisation d’une version fixe garantit la stabilité, la compatibilité avec le volume Docker et le bon fonctionnement de Drupal.
+
+
 ```bash
 docker run -d \
 --name postgres \
@@ -95,7 +99,7 @@ docker run -d \
 -e POSTGRES_USER=drupaluser \
 -e POSTGRES_PASSWORD=drupalpass \
 -v drupal-data:/var/lib/postgresql/data \
-postgres:latest
+postgres:15
 ```
 
 <details>
