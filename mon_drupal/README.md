@@ -53,6 +53,38 @@ WORKDIR /var/www/html
     <summary> <strong>Detail image :</strong></summary>
   <img src="../images/9.png" width="800"/>
 </details>
+## Étape 2 : BUILD IMAGE
+
+<strong>Objectifs:</strong>
+
+#### Commande :
+
+```bash
+docker build -t drupal_custom ./drupal
+```
+<details>
+    <summary> <strong>Detail image :</strong></summary>
+  <img src="../images/20.png" width="800"/>
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Étape 2 : POSTGRESQL POUR DRUPAL
