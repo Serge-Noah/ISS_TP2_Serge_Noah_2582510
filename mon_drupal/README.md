@@ -51,15 +51,11 @@ WORKDIR /var/www/html
 
 <details>
     <summary> <strong>Detail image :</strong></summary>
-  <img src="images/9.png" width="800"/>
+  <img src="images/mn_drupal/9.png" width="800"/>
 </details>
 
 
 
-<details>
-    <summary> <strong>Detail image :</strong></summary>
-  <img src="images/2.png" width="800"/>
-</details>
 
 ## Étape 2 : Création de conteneurs sur le poste local
 
