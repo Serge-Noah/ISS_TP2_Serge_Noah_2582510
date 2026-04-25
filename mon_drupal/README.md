@@ -127,9 +127,14 @@ ip a
 
 #### Configuration PostgreSQL
 
+Informations :
+ - Database name : drupaldb
+ - Username : drupaluser
+ - Password : drupalpass
+
 <details>
     <summary> <strong>Detail image :</strong></summary>
-  <img src="../images/15.png" width="800"/>
+  <img src="../images/15.png" width="1000"/>
 </details>
 
 
