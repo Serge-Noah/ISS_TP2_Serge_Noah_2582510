@@ -55,26 +55,23 @@ WORKDIR /var/www/html
 </details>
 
 
-
-
-## Étape 2 : Création de conteneurs sur le poste local
+## Étape 2 : POSTGRESQL POUR DRUPAL
 
 <strong>Objectifs:</strong>
-- Créer un système avec un réseau privé virtuel mon_reseau et les conteneurs apache avec l'image httpd:latest et mongodb avec l'image mongodb/mongodb-community-server`.
-- Le conteneur httpd écoutera sur le port 80 de votre hôte.
-- L’utilisateur root de mongoDB sera adminmongo et le mot de passe sera EncoreUneAutreBD.
-- Le conteneur mongodb utilisera le volume mongodb.
 
+Nous allons créer un conteneur Postgresql pour l'utiliser avec Drupal:
+- Nous devons exposer Drupal sur le port 8080 afin que nous puissions utiliser un navigateur avec localhost:8080.
+- Lancer les conteneurs et configurez l'installation Web de Drupal à http://localhost:8080.
+- Au choix de la BD, nous utiliserons PostgreSQL avec le nom de BD avec l’utilisateur et le mot de passe que nous avons configuré au lancement du conteneur.
 
 #### Commande pour créer le réseau privé
 
 ```bash
 docker network create mon_reseau
 ```
-
 <details>
     <summary> <strong>Detail image :</strong></summary>
-  <img src="images/3.png" width="800"/>
+  <img src="images/10.png" width="800"/>
 </details>
 
 #### Commande pour créer le volume MongoDB
