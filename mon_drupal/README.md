@@ -89,7 +89,7 @@ postgres:latest
 
 <details>
     <summary> <strong>Detail image :</strong></summary>
-   <img src="../images/11.png" width="800"/>
+   <img src="../images/16.png" width="800"/>
 </details>
 
 #### Commande pour lancer DRUPAL
