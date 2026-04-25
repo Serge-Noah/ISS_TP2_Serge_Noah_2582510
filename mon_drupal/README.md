@@ -66,25 +66,6 @@ docker build -t drupal_custom ./drupal
 </details>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Étape 2 : POSTGRESQL POUR DRUPAL
 
 <strong>Objectifs:</strong>
@@ -97,11 +78,11 @@ Nous allons créer un conteneur Postgresql pour l'utiliser avec Drupal:
 #### Commande :
 
 ```bash
-docker network create mon_reseau
+docker volume create drupal-data
 ```
 <details>
     <summary> <strong>Detail image :</strong></summary>
-  <img src="../images/10.png" width="800"/>
+  <img src="../images/21.png" width="800"/>
 </details>
 
 #### Commande pour lancer PostgreSQL :
