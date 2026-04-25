@@ -92,21 +92,19 @@ postgres:latest
    <img src="../images/11.png" width="800"/>
 </details>
 
-#### Commande pour lancer MongoDB
+#### Commande pour lancer DRUPAL
 
 ```bash
 docker run -d \
---name mongodb \
+--name drupal \
 --network mon_reseau \
--e MONGO_INITDB_ROOT_USERNAME=adminmongo \
--e MONGO_INITDB_ROOT_PASSWORD=EncoreUneAutreBD \
--v mongodb:/data/db \
-mongodb/mongodb-community-server:latest
+-p 8080:80 \
+drupal:9
 ```
 
 <details>
     <summary> <strong>Detail image :</strong></summary>
-  <img src="images/5.png" width="1000"/>
+   <img src="../images/12.png" width="800"/>
 </details>
 
 #### Commande pour lancer APACHE(HTTPD)
