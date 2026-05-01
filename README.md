@@ -115,6 +115,9 @@ httpd:latest
 <details>
     <summary> <strong>Detail image :</strong></summary>
   <img src="images/6.png" width="1000"/>
+
+           ------
+  <img src="images/36.png" width="800"/>
 </details>
 
 #### Commande pour vérifier le réseau :
