@@ -88,6 +88,9 @@ docker volume create drupal-data
 <details>
     <summary> <strong>Detail image :</strong></summary>
   <img src="../images/21.png" width="800"/>
+
+    ----
+      <img src="../images/41.png" width="800"/>
 </details>
 
 #### Commande pour lancer PostgreSQL :
