@@ -129,6 +129,9 @@ drupal:9
 <details>
     <summary> <strong>Detail image :</strong></summary>
    <img src="../images/23.png" width="800"/>
+
+    ---
+<img src="../images/43.png" width="800"/>
 </details>
 
 #### Commande pour identifier l'adresse ip du server
@@ -140,6 +143,9 @@ ip a
 <details>
     <summary> <strong>Detail image :</strong></summary>
   <img src="../images/13.png" width="800"/>
+
+  -----
+<img src="../images/44.png" width="800"/>
 </details>
 
 #### Connexion sur le port 8080 sur la machine cliente ubuntu:
@@ -147,6 +153,9 @@ ip a
 <details>
     <summary> <strong>Detail image :</strong></summary>
   <img src="../images/14.png" width="800"/>
+
+      -----
+<img src="../images/45.png" width="800"/>
 </details>
 
 #### Configuration PostgreSQL
