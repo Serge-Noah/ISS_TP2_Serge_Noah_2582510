@@ -65,6 +65,9 @@ docker build -t drupal_custom ./drupal
 <details>
     <summary> <strong>Detail image :</strong></summary>
   <img src="../images/20.png" width="800"/>
+
+       ----
+  <img src="../images/40.png" width="800"/>
 </details>
 
 
