@@ -77,6 +77,9 @@ docker volume create mongodb
 <details>
     <summary> <strong>Detail image :</strong></summary>
   <img src="images/4.png" width="800"/>
+
+            ------
+  <img src="images/34.png" width="800"/>
 </details>
 
 #### Commande pour lancer MongoDB
