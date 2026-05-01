@@ -52,6 +52,8 @@ WORKDIR /var/www/html
 <details>
     <summary> <strong>Detail image :</strong></summary>
   <img src="../images/9.png" width="800"/>
+    ----
+  <img src="../images/39.png" width="800"/>
 </details>
 
 ## Étape 2 : BUILD IMAGE
