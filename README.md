@@ -29,6 +29,8 @@ docker version
 <details>
     <summary> <strong>Detail image :</strong></summary>
   <img src="images/1.png" width="800"/>
+    ------
+  <img src="images/31.png" width="800"/>
 </details>
 
 ```bash
