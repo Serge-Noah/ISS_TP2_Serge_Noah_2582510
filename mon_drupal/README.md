@@ -52,8 +52,6 @@ WORKDIR /var/www/html
 <details>
     <summary> <strong>Detail image :</strong></summary>
   <img src="../images/9.png" width="800"/>
-    ----
-  <img src="../images/39.png" width="800"/>
 </details>
 
 ## Étape 2 : BUILD IMAGE
@@ -65,9 +63,6 @@ docker build -t drupal_custom ./drupal
 <details>
     <summary> <strong>Detail image :</strong></summary>
   <img src="../images/20.png" width="800"/>
-
-       ----
-  <img src="../images/40.png" width="800"/>
 </details>
 
 
@@ -89,8 +84,6 @@ docker volume create drupal-data
     <summary> <strong>Detail image :</strong></summary>
   <img src="../images/21.png" width="800"/>
 
-    ----
-  <img src="../images/41.png" width="800"/>
 </details>
 
 #### Commande pour lancer PostgreSQL :
@@ -129,9 +122,6 @@ drupal:9
 <details>
     <summary> <strong>Detail image :</strong></summary>
    <img src="../images/23.png" width="800"/>
-
-    ---
-<img src="../images/43.png" width="800"/>
 </details>
 
 #### Commande pour identifier l'adresse ip du server
@@ -144,8 +134,6 @@ ip a
     <summary> <strong>Detail image :</strong></summary>
   <img src="../images/13.png" width="800"/>
 
-  -----
-<img src="../images/44.png" width="800"/>
 </details>
 
 #### Connexion sur le port 8080 sur la machine cliente ubuntu:
@@ -153,9 +141,6 @@ ip a
 <details>
     <summary> <strong>Detail image :</strong></summary>
   <img src="../images/14.png" width="800"/>
-
-      -----
-<img src="../images/45.png" width="800"/>
 </details>
 
 #### Configuration PostgreSQL
