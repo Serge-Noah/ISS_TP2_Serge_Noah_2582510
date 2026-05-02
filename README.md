@@ -133,6 +133,4 @@ docker logs apache
     <summary> <strong>Detail image :</strong></summary>
   <img src="images/8.png" width="1000"/>
 
-     ------
-  <img src="images/38.png" width="800"/>
 </details>
