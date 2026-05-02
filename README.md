@@ -29,8 +29,7 @@ docker version
 <details>
     <summary> <strong>Detail image :</strong></summary>
   <img src="images/1.png" width="800"/>
-    ------
-  <img src="images/31.png" width="800"/>
+  
 </details>
 
 ```bash
@@ -41,8 +40,7 @@ docker compose version
     <summary> <strong>Detail image :</strong></summary>
   <img src="images/2.png" width="800"/>
 
-     ------
-  <img src="images/32.png" width="800"/>
+  
 </details>
 
 ## Étape 2 : Création de conteneurs sur le poste local
@@ -64,8 +62,7 @@ docker network create mon_reseau
     <summary> <strong>Detail image :</strong></summary>
   <img src="images/3.png" width="800"/>
 
-        ------
-  <img src="images/33.png" width="800"/>
+ 
 </details>
 
 #### Commande pour créer le volume MongoDB
@@ -78,8 +75,7 @@ docker volume create mongodb
     <summary> <strong>Detail image :</strong></summary>
   <img src="images/4.png" width="800"/>
 
-            ------
-  <img src="images/34.png" width="800"/>
+
 </details>
 
 #### Commande pour lancer MongoDB
@@ -115,9 +111,6 @@ httpd:latest
 <details>
     <summary> <strong>Detail image :</strong></summary>
   <img src="images/6.png" width="1000"/>
-
-           ------
-  <img src="images/36.png" width="800"/>
 </details>
 
 #### Commande pour vérifier le réseau :
@@ -130,8 +123,6 @@ docker network inspect mon_reseau
     <summary> <strong>Detail image :</strong></summary>
   <img src="images/7.png" width="1000"/>
 
-         ------
-  <img src="images/37.png" width="800"/>
 </details>
 
 #### Commande pour vérifier les logs Apache :
