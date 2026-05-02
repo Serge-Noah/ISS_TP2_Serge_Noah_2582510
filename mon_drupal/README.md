@@ -102,11 +102,6 @@ docker run -d \
 -v drupal-data:/var/lib/postgresql/data \
 postgres:15
 ```
-<details>
-    <summary> <strong>Detail image :</strong></summary>
-  <img src="../images/42.png" width="800"/>
-</details>
-
 
 
 #### Commande pour lancer DRUPAL
